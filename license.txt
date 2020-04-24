@@ -1,6 +1,6 @@
 This document is the Supplementary Licence described in the CSIRO Non-Commercial Source Code Licence Agreement, a copy of which can be found below.  
-The Software being licensed is: TCE
-The Software will be made available for download from: https://bitbucket.csiro.au/projects/EIF/repos/tce/browse
+The Software being licensed is: UPGen
+The Software will be made available for download from: https://github.com/csiro-robotics/UPGen
 ----------------------------------------------------------------------
 Third Party Components
 The following third party components and licences are either distributed with or required to run the Software.  You agree to comply with the terms for these components as part of accessing the Software.  Other third party software may also be identified in separate license files distributed with the Software.
