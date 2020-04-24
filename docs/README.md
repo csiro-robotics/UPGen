@@ -1,9 +1,9 @@
 
 This is the webpage for the (under review) CVIU paper: Scalable learning for bridging the species gap in image-based plant phenotyping
 
-## [[ Paper ]](https://arxiv.org/abs/2003.10757) [[ BibTex ]](https://github.com/csiro-robotics/UPGen_Webpage/blob/master/docs/ward2020scalable.bib) [[ Dataset]](https://research.csiro.au/robotics/our-work/databases/synthetic-arabidopsis-dataset/) [[ Pretrained Model]](https://bitbucket.csiro.au/scm/ag3d/leaf_segmenter_public.git)
+## [[ Paper ]](https://arxiv.org/abs/2003.10757) [[ BibTex ]](https://github.com/csiro-robotics/UPGen_Webpage/blob/master/attachments/ward2020scalable.bib) [[ Dataset]](https://research.csiro.au/robotics/our-work/databases/synthetic-arabidopsis-dataset/) [[ Pretrained Model]](https://bitbucket.csiro.au/scm/ag3d/leaf_segmenter_public.git)
 
-<div style="margin:0 auto"> <img width="1080" src='docs/images/overview_bigArrow.png'> </div>
+<div style="margin:0 auto"> <img width="1080" src='attachments/images/overview_bigArrow.png'> </div>
 
 # Abstract
 <div style="text-align: justify"> 
@@ -19,20 +19,20 @@ Our method has several benefits over other synthetic data approaches such as the
 
 Example synthetic images and the corresponding leaf instance segmentation masks.
 <div class="row" style="margin:0 auto">
-    <img width="150" height="150" src="docs/images/exampleData/plant00005_rgb.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00033_rgb.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00035_rgb.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00068_rgb.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00314_rgb.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00026_rgb.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00005_rgb.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00033_rgb.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00035_rgb.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00068_rgb.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00314_rgb.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00026_rgb.png">
 </div>
 <div class="row" style="margin:0 auto">
-    <img width="150" height="150" src="docs/images/exampleData/plant00005_label.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00033_label.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00035_label.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00068_label.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00314_label.png">
-    <img width="150" height="150" src="docs/images/exampleData/plant00026_label.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00005_label.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00033_label.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00035_label.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00068_label.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00314_label.png">
+    <img width="150" height="150" src="attachments/images/exampleData/plant00026_label.png">
 </div>
 
 
@@ -47,8 +47,8 @@ We train Mask-RCNN using our data and evauluate it on two completely unseen plan
 
 Example segmentations on the Komatsuna dataset (left) and the capsicum dataset (right).
 <div class="row" style="margin:0 auto">
-    <img width="150" height="150" src="docs/images/exampleSegmentation/komatsuna_context.png">
-    <img width="150" height="150" src="docs/images/exampleSegmentation/capsicum_context.png">
+    <img width="150" height="150" src="attachments/images/exampleSegmentation/komatsuna_context.png">
+    <img width="150" height="150" src="attachments/images/exampleSegmentation/capsicum_context.png">
 </div>
 
 ## The CVPPP Leaf Segmentation Challenge
@@ -56,10 +56,10 @@ We also compete in the [Computer Vision Problems in Plant Phenotyping (CVPPP) Le
 
 Example segmentations on test images. Left to right is an image from each test dataset: A1, A2, A3 and A4.
 <div class="row" style="margin:0 auto">
-    <img width="150" height="150" src="docs/images/exampleSegmentation/plant111_blend.png">
-    <img width="150" height="150" src="docs/images/exampleSegmentation/plant035_blend.png">
-    <img width="150" height="150" src="docs/images/exampleSegmentation/plant048_blend.png">
-    <img width="150" height="150" src="docs/images/exampleSegmentation/plant0956_blend.png">
+    <img width="150" height="150" src="attachments/images/exampleSegmentation/plant111_blend.png">
+    <img width="150" height="150" src="attachments/images/exampleSegmentation/plant035_blend.png">
+    <img width="150" height="150" src="attachments/images/exampleSegmentation/plant048_blend.png">
+    <img width="150" height="150" src="attachments/images/exampleSegmentation/plant0956_blend.png">
 </div>
 
 # Citation
