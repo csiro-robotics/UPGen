@@ -94,7 +94,7 @@ Our large synthetic dataset can replace large computer vision datasets such as I
 
 To initialise training from pretrained weights pass the path using: ```--init /path/to/weights/pretrainedModel.h5```
 For example: 
-```python train_cvppp.py --dataDir /path/to/your/datasets/upgen/train --outputDir /path/to/your/training/directory --name PretrainedUpgen_1 --numEpochs 5 --blurImages --init rand```
+```python train_cvppp.py --dataDir /path/to/your/datasets/upgen/train --outputDir /path/to/your/training/directory --name PretrainedUpgen_1 --numEpochs 5 --blurImages --init /path/to/weights/pretrainedModel.h5```
 
 ## Fine Tuning On A Custom Dataset
 The same method of loading pretrained weights enables one to fine tune a model on their own dataset. 
