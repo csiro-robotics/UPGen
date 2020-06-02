@@ -1,5 +1,5 @@
 # UPGen: a Universal Plant Generator for bridging the species gap
-This repository provides the steps and code to train and deploy deep learning models for image based plant phenotyping. It contains the dataset, models and inference code relating to our (Under-review) CVIU Paper: [Scalable learning for bridging the species gap in image-based plant phenotyping](https://arxiv.org/abs/2003.10757). For more information see our [webpage](https://csiro-robotics.github.io/UPGen_Webpage/).
+This repository provides the steps and code to train and deploy deep learning models for image based plant phenotyping. It contains the dataset, models and inference code relating to our (Accepted!) CVIU Paper: [Scalable learning for bridging the species gap in image-based plant phenotyping](https://arxiv.org/abs/2003.10757). For more information see our [webpage](https://csiro-robotics.github.io/UPGen_Webpage/).
 
 # Scalable learning for bridging the species gap in image-based plant phenotyping
 If you use the pretrained models, datasets or code presented here please cite:
