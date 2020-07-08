@@ -1,6 +1,6 @@
 # UPGen: a Universal Plant Generator for bridging the species gap
 
-This repository provides the steps and code to train and deploy deep learning models for image based plant phenotyping. It contains the dataset, models and inference code relating to our CVIU Paper: [Scalable learning for bridging the species gap in image-based plant phenotyping](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300746)[(ArXiv)](https://arxiv.org/abs/2003.10757). For more information see our [webpage](https://csiro-robotics.github.io/UPGen_Webpage/).
+This repository provides the steps and code to train and deploy deep learning models for image based plant phenotyping. It contains the dataset, models and inference code relating to our CVIU Paper: [Scalable learning for bridging the species gap in image-based plant phenotyping](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300746)[(ArXiv)](https://arxiv.org/abs/2003.10757). For more information see our [webpage](https://csiro-robotics.github.io/UPGen-Webpage/).
 
 
 # Scalable learning for bridging the species gap in image-based plant phenotyping
@@ -49,7 +49,7 @@ We suggest using the Annaconda package manager to install dependencies. In these
 2. Activate the environment: ```conda activate upgen```
 3. Clone the Matterport Mask RCNN implementation: ```git clone https://github.com/matterport/Mask_RCNN.git```
 4. Change directory into mask rcnn: ```cd Mask_RCNN```
-5. Add Mask_RCNN to the PYTHON PATH: ```export PYTHONPATH=$PYTHONPATH:`pwd````
+5. Add Mask_RCNN to the PYTHON PATH: ```export PYTHONPATH=$PYTHONPATH:`pwd` ```
 
 ## Compatibility
 This framework has been tested on Ubuntu 16.04.
