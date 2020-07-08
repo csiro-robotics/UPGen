@@ -1,20 +1,22 @@
 # UPGen: a Universal Plant Generator for bridging the species gap
-This repository provides the steps and code to train and deploy deep learning models for image based plant phenotyping. It contains the dataset, models and inference code relating to our (Under-review) CVIU Paper: [Scalable learning for bridging the species gap in image-based plant phenotyping](https://arxiv.org/abs/2003.10757). For more information see our [webpage](https://csiro-robotics.github.io/UPGen_Webpage/).
+This repository provides the steps and code to train and deploy deep learning models for image based plant phenotyping. It contains the dataset, models and inference code relating to our CVIU Paper: [Scalable learning for bridging the species gap in image-based plant phenotyping](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300746)[(ArXiv)](https://arxiv.org/abs/2003.10757). For more information see our [webpage](https://csiro-robotics.github.io/UPGen_Webpage/).
 
 # Scalable learning for bridging the species gap in image-based plant phenotyping
 If you use the pretrained models, datasets or code presented here please cite:
 
 ### Paper
 ```
-Ward, D. and Moghadam, P., 2020. Scalable learning for bridging the species gap in image-based plant phenotyping, arXiv preprint arXiv:2003.10757
+Ward, D., & Moghadam, P. (2020). Scalable learning for bridging the species gap in image-based plant phenotyping. Computer Vision and Image Understanding, 103009.
 ```
 ### Paper (bibtex)
 ```
 @article{ward2020scalable,
   title={Scalable learning for bridging the species gap in image-based plant phenotyping},
   author={Ward, Daniel and Moghadam, Peyman},
-  journal={arXiv preprint arXiv:2003.10757},
-  year={2020}
+  journal={Computer Vision and Image Understanding},
+  pages={103009},
+  year={2020},
+  publisher={Elsevier}
 }
 ```
 
@@ -24,7 +26,7 @@ For leaf instance segmentation we use the Matterport Mask R-CNN implementation.
 ## Pretrained Model
 A pretrained model can be downloaded [here](https://cloudstor.aarnet.edu.au/plus/s/uT5G7Lu3tZ6SahS).
 It was trained using UPGen data and the expected uses are to continue training with data of your particular plant species and imaging environment.
-This is the approach we employed in [our paper](https://arxiv.org/abs/2003.10757) to achieve state of the art performance in the [CVPPP Leaf Segmentation Challenge](https://competitions.codalab.org/competitions/18405).
+This is the approach we employed in [our paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300746) to achieve state of the art performance in the [CVPPP Leaf Segmentation Challenge](https://competitions.codalab.org/competitions/18405).
 
 ## Mask RCNN Framework (from the matterport readme)
 If you use this code please cite the authors of the architecture implementation. 
