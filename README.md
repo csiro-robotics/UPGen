@@ -26,7 +26,7 @@ Ward, D., & Moghadam, P. (2020). Scalable learning for bridging the species gap 
 For leaf instance segmentation we use the Matterport Mask R-CNN implementation.
 
 ## Pretrained Model
-A pretrained model can be downloaded [here](https://cloudstor.aarnet.edu.au/plus/s/uT5G7Lu3tZ6SahS).
+A pretrained model can be downloaded [here](https://www.dropbox.com/scl/fi/5xy6ja27kqph6l4uh6whh/upgen_mask-rcnn_27.h5?rlkey=bc4raah92qgp4nd8gufzuv3f6&st=rj1e8y90&dl=0).
 It was trained using UPGen data and the expected uses are to continue training with data of your particular plant species and imaging environment.
 This is the approach we employed in [our paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300746) to achieve state of the art performance in the [CVPPP Leaf Segmentation Challenge](https://competitions.codalab.org/competitions/18405).
 
