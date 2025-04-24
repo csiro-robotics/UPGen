@@ -94,7 +94,7 @@ For example:
 ```python train_cvppp.py --dataDir /path/to/your/datasets/upgen/train --outputDir /path/to/your/training/directory --name TrainingFromScratchUpgen_1 --numEpochs 5 --blurImages --init rand```
 
 ## Training From Pretrained Weights
-Our large synthetic dataset can replace large computer vision datasets such as ImageNet or MS-COCO as a starting point for training. Mask-RCNN weights pretrained on our synthetic data can be downloaded [here](https://cloudstor.aarnet.edu.au/plus/s/uT5G7Lu3tZ6SahS).
+Our large synthetic dataset can replace large computer vision datasets such as ImageNet or MS-COCO as a starting point for training. Mask-RCNN weights pretrained on our synthetic data can be downloaded [here](https://www.dropbox.com/scl/fi/5xy6ja27kqph6l4uh6whh/upgen_mask-rcnn_27.h5?rlkey=bc4raah92qgp4nd8gufzuv3f6&st=rj1e8y90&dl=0).
 
 To initialise training from pretrained weights pass the path using: ```--init /path/to/weights/pretrainedModel.h5```
 For example: 
